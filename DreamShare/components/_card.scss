@@ -1,0 +1,58 @@
+.card{
+  border: 0;
+  border-radius: 4px;
+}
+.card__image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__pic{
+  width: 100%;
+  height: 100%;
+}
+.card__body{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.card__button{
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  padding: 3px 12px;
+  letter-spacing: 2px;
+}
+.card__title{
+  font-size: 24px;
+  line-height: 14px;
+  margin:25px 0px;
+}
+.card__para{
+  color: #E3E3E3;
+  font-size: 14px;
+  line-height: 14px;
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 240px;
+  padding: 0;
+  margin: 5px 10px;
+  flex-basis: initial;
+  flex-grow: initial;
+  .card__body{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 30px 16px 20px;
+  }
+}
+.card__pic{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}

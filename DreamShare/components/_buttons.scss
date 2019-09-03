@@ -1,0 +1,27 @@
+.button{
+  background: #FF4E50;
+  border-radius: 40px;
+  padding: 10px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.button--outline{
+  font-weight: normal;
+  background: none;
+  border: 2px solid #ffffff;
+}
+.button--outline--pink{
+  border: 2px solid ;
+  color: #FF4E50;
+}
+.button-aLine{
+  width: 100%;
+  font-weight: bold;
+}
+.button--small{
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}

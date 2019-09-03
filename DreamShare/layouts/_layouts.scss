@@ -1,100 +1,29 @@
-.header{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  padding: 153px 20px;
-}
-.main-page{
-  padding: 0;
-}
-.heading-title{
-  margin: 35px 0 15px;
-}
-.list-person{
-  margin-bottom: 36px;
-}
-.card{
-  position: relative;
-  width: 300px;
-  height: 240px;
-  padding: 0;
-  margin: 5px 10px;
-  flex-basis: initial;
-  flex-grow: initial;
-  .card-body{
-    position: absolute;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0 30px 16px 20px;
-  }
-}
-.card-pic{
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-.group-login-signup{
-  position: absolute;
-  top: 20px;
-}
-.header__name-brand{
-  margin-bottom: 26.5px;
-}
-.header__title{
-  margin-bottom: 5.5px;
-}
-.header__para{
-  margin-bottom: 15px;
-}
+@import 'header';
+@import 'main';
+@import 'footer';
 .partner{
-  margin: 0 10px;
+  padding: 0 20px;
   text-align: center;
 }
 .holiday-ideas-wrap{
   margin: 0 10px;
 }
-.interest{
-  margin: 25px 0 40px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: stretch;
+.holiday__title{
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .list-feature{
   margin: auto;
 }
-.foot{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 19px 20px 22px;
-  .foot__name-brand{
-    margin-bottom: 13px;
-  }
-  .foot__list{
-    text-align: center;
-    margin-bottom: 6px;
-    .list__item{
-      display: inline-block;
-      padding: 0 5px;
-    }
-  }
-  .foot__design{
-    margin: 14px 0 7px;
-  }
-}
 @media (min-width: 768px){
   .heading-title{
     margin: 94px 0 35px;
+  }
+  .main-page{
+    max-width: 960px;
+  }
+  .foot{
+    max-width: 960px;
   }
   .header{
     padding: 224px 149px;
@@ -123,9 +52,6 @@
   }
   .holiday-ideas-wrap{
     margin: 0;
-    .list-feature{
-      width: 748px;
-    }
     .feature{
       padding: 10px;
       margin: 0;
@@ -133,9 +59,6 @@
         height: 310px;
       }
     }
-  }
-  .list-person{
-    padding: 0 133px;
   }
   .interest{
     flex-direction: row;
@@ -182,12 +105,6 @@
   }
 }
 @media (min-width: 1440px){
-  .holiday-ideas-wrap .list-feature{
-    width: 940px;
-  }
-  .main-page{
-    padding:0 250px;
-  }
   .list-person{
     padding: 0;
   }
@@ -196,7 +113,7 @@
     height: 400px;
   }
   .foot{
-    padding: 36px 17.3vw 20px;
+    width: 960px;
   }
 }
 

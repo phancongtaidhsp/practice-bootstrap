@@ -1,0 +1,27 @@
+.header{
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url('images/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding: 153px 20px;
+}
+.group-login-signup{
+  position: absolute;
+  top: 20px;
+}
+.header__name-brand{
+  margin-bottom: 26.5px;
+}
+.header__title{
+  margin-bottom: 5.5px;
+}
+.header__para{
+  margin-bottom: 15px;
+}

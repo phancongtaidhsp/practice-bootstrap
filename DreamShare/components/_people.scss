@@ -1,0 +1,50 @@
+.person{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: 236px;
+  .person__avatar{
+    position: relative;
+    margin-bottom: 16px;
+    .avatar__img{
+      width: 120px;
+      height: 120px;
+    }
+    .avatar__badge{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      box-sizing: content-box;
+      width: 32px;
+      height: 32px;
+      border: 4px #ffffff solid;
+      background-color: #FF4E50;
+      bottom: 0px;
+      right: 0px;
+    }
+    .avatar__badge--photographer{
+      background-color: #FFA710;
+    }
+    .avatar__badge--art{
+      background-color: #19D4CA;
+    }
+    .avatar__badge--plain{
+      background-color: #667DF3;
+    }
+  }
+  .person__name{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-bottom: 20px;
+  }
+  .person__description{
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+  }
+}
